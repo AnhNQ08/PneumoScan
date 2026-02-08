@@ -1,7 +1,5 @@
 # PneumoScan: Phát Hiện Viêm Phổi Từ Ảnh X-Quang Bằng Deep Learning
 
-![Pneumonia Detection Banner](https://i.imgur.com/j5w9y7s.png) 
-
 ## 1. Tổng Quan Dự Án
 Dự án này ứng dụng Deep Learning, cụ thể là Mạng Neural Tích Chập (Convolutional Neural Networks - CNNs), để phát hiện bệnh Viêm phổi từ các ảnh chụp X-Quang lồng ngực. Chúng tôi sử dụng kỹ thuật **Transfer Learning** với kiến trúc **ResNet18** (đã được huấn luyện trước trên tập ImageNet) để đạt độ chính xác cao ngay cả với nguồn tài nguyên tính toán hạn chế.
 
