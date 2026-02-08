@@ -7,7 +7,7 @@ import os
 import matplotlib.pyplot as plt
 
 # Cấu hình
-st.set_page_config(page_title="Pneumonia Detection", page_icon="🫁")
+st.set_page_config(page_title="PneumoScan", page_icon="🫁")
 
 # Load model
 @st.cache_resource
@@ -42,7 +42,7 @@ def process_image(image):
     return transform(image).unsqueeze(0)
 
 # UI
-st.title("🫁 Pneumonia Detection from X-Ray")
+st.title("🫁 PneumoScan: Pneumonia Detection")
 st.markdown("Upload a chest X-Ray image to detect if it shows signs of Pneumonia.")
 
 uploaded_file = st.file_uploader("Choose an X-Ray image...", type=["jpg", "jpeg", "png"])

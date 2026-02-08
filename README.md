@@ -25,7 +25,7 @@ The dataset used is the [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/
 ### Directory Structure
 Ensure your project directory looks like this after downloading data:
 ```text
-pneumonia-detection-cnn/
+PneumoScan/
 ├── data/
 │   └── raw/
 │       ├── train/
@@ -47,11 +47,11 @@ pneumonia-detection-cnn/
 └── README.md
 ```
 
-## 3. Installation
+3. Installation
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/pneumonia-detection-cnn.git
-    cd pneumonia-detection-cnn
+    git clone https://github.com/AnhNQ08/PneumoScan.git
+    cd PneumoScan
     ```
 
 2.  **Install dependencies**:
@@ -114,7 +114,7 @@ Example Metrics:
 - Deploy as a web app using Streamlit or Flask.
 
 ## 8. Author
-**[Your Name]**
-- [GitHub Profile](https://github.com/yourusername)
+**AnhNQ08**
+- [GitHub Profile](https://github.com/AnhNQ08)
 - [LinkedIn](https://linkedin.com/in/yourprofile)
 
