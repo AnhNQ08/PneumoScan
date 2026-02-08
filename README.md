@@ -64,7 +64,7 @@ Chúng tôi đã tích hợp sẵn script để tải và sắp xếp dữ liệ
 ```bash
 python src/download_data.py
 ```
-*(Nếu không dùng script, bạn có thể tải thủ công từ Kaggle và sắp xếp vào `data/raw` như cấu trúc ở mục 2)*
+
 
 ### 4.2 Huấn Luyện (Training)
 Để bắt đầu train model, chạy lệnh sau:
