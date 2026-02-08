@@ -99,8 +99,12 @@ This will open a local web server (e.g., `http://localhost:8501`) where you can 
 *(You can update this section with your actual training results after running the code)*
 
 Example Metrics:
-- **Accuracy**: > 90%
-- **F1-Score**: > 0.90
+- **Accuracy**: ~90%
+- **F1-Score (Pneumonia)**: 0.93
+- **F1-Score (Normal)**: 0.86
+
+![Training History](outputs/training_history.png)
+![Confusion Matrix](outputs/confusion_matrix.png)
 
 ## 6. Technologies Used
 - **Language**: Python 3.8+

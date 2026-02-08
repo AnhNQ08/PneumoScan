@@ -88,8 +88,8 @@ def evaluate_model(data_dir, model_path, batch_size=32):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_dir', type=str, default='../data/raw', help='Path to data directory')
-    parser.add_argument('--model_path', type=str, default='../outputs/pneumonia_model.pth', help='Path to trained model')
+    parser.add_argument('--data_dir', type=str, default='data/raw', help='Path to data directory')
+    parser.add_argument('--model_path', type=str, default='outputs/pneumonia_model.pth', help='Path to trained model')
     args = parser.parse_args()
     
     evaluate_model(args.data_dir, args.model_path)
