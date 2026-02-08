@@ -116,7 +116,7 @@ Dưới đây là kết quả thực nghiệm sau khi huấn luyện 10 epochs:
   <img src="outputs/confusion_matrix.png" width="45%" /> 
 </p>
 
-*(Lưu ý: Kết quả có thể dao động nhẹ tùy thuộc vào lần khởi tạo ngẫu nhiên)*
+
 
 ## 6. Công Nghệ Sử Dụng
 - **Ngôn ngữ**: Python 3.8+
